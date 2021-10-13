@@ -17,12 +17,17 @@
     border-color: black;
     border: 1px;
     border-style: solid;
+    height: 200px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
 }
 
 #profile-2 {
     border-color: black;
     border: 1px;
     border-style: solid;
+    height: 200px;
 }
 
 #profile-3 {
@@ -41,6 +46,7 @@
     border-color: black;
     border: 1px;
     border-style: solid;
+    height: 200px;
 }
 
 #profile-6 {
