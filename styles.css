@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: honeydew;
+}
+
+.explore-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: "a b c d",
+                         "e f g h";
+    margin: 15px;
+}
+
+#profile-1 {
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#profile-2 {
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#profile-3 {
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#profile-4 {
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#profile-5 {
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#profile-6 {
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#profile-7 {
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#profile-8 {
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
