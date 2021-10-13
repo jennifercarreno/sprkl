@@ -1,16 +1,41 @@
-.navbar {
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.navbar img {
     display: flex;
     flex-direction: row;
-    background-color: honeydew;
+    float: right;
+    justify-content: center;
+    padding: 10px;
+
 }
 
+.navbar h1 {
+    float: left;
+}
+.navbar{
+    margin:0px;
+    background-color:darkorange;
+    padding: 10px;
+    
+}
 .explore-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
     grid-template-areas: "a b c d",
                          "e f g h";
-    margin: 15px;
+    margin: 55px;
+    
+}
+
+
+h2 {
+    padding-left: 10px;
+    color: white;
 }
 
 #profile-1 {
@@ -18,8 +43,11 @@
     border: 1px;
     border-style: solid;
     height: 200px;
+    display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
+    background-image: url("images/profilepic1.jpg");
+    background-size: cover;
     
 }
 
@@ -28,18 +56,34 @@
     border: 1px;
     border-style: solid;
     height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("images/profilepic2.jpg");
+    background-size: cover;
+
 }
 
 #profile-3 {
     border-color: black;
     border: 1px;
     border-style: solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("images/profilepic3.jpg");
+    background-size: cover;
 }
 
 #profile-4 {
     border-color: black;
     border: 1px;
     border-style: solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("images/profilepic4.jpg");
+    background-size: cover;
 }
 
 #profile-5 {
@@ -47,23 +91,47 @@
     border: 1px;
     border-style: solid;
     height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("images/profilepic5.jpg");
+    background-size: cover;
 }
 
 #profile-6 {
     border-color: black;
     border: 1px;
     border-style: solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("images/profilepic6.jpg");
+    background-size: cover;
 }
 
 #profile-7 {
     border-color: black;
     border: 1px;
     border-style: solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("images/profilepic7.jpg");
+    background-size: cover;
 }
 
 #profile-8 {
     border-color: black;
     border: 1px;
     border-style: solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("images/profilepic8.jpg");
+    background-size: cover;
 }
 
+.enlarge:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
