@@ -37,23 +37,21 @@ body {
 }
 
 
-h2 {
-    padding-left: 10px;
-    color: white;
-}
-
 #profile-1 {
     border-color: black;
     border: 1px;
     border-style: solid;
     height: auto;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
     flex-direction: column;
     background-image: url("images/profilepic1.jpg");
     background-size: cover;
-    
+    margin: 0px;
+    height: 400px;
+    width: 100%;
+    grid-area: "a";
 }
 
 
@@ -63,11 +61,14 @@ h2 {
     border-style: solid;
     height: 200px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
     background-image: url("images/profilepic2.jpg");
     background-size: cover;
-
+    height: 400px;
+    width: 100%;
+    grid-area: "b";
 }
 
 #profile-3 {
@@ -75,10 +76,14 @@ h2 {
     border: 1px;
     border-style: solid;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
     background-image: url("images/profilepic3.jpg");
     background-size: cover;
+    height: 400px;
+    width: 100%;
+    grid-area: "c";
 }
 
 #profile-4 {
@@ -86,10 +91,14 @@ h2 {
     border: 1px;
     border-style: solid;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
     background-image: url("images/profilepic4.jpg");
     background-size: cover;
+    height: 400px;
+    width: 100%;
+    grid-area: "d";
 }
 
 #profile-5 {
@@ -98,10 +107,14 @@ h2 {
     border-style: solid;
     height: 200px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
     background-image: url("images/profilepic5.jpg");
     background-size: cover;
+    height: 400px;
+    width: 100%;
+    grid-area: "e";
 }
 
 #profile-6 {
@@ -109,10 +122,14 @@ h2 {
     border: 1px;
     border-style: solid;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
     background-image: url("images/profilepic6.jpg");
     background-size: cover;
+    height: 400px;
+    width: 100%;
+    grid-area: "f";
 }
 
 #profile-7 {
@@ -120,10 +137,14 @@ h2 {
     border: 1px;
     border-style: solid;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
     background-image: url("images/profilepic7.jpg");
     background-size: cover;
+    height: 400px;
+    width: 100%;
+    grid-area: "g";
 }
 
 #profile-8 {
@@ -131,27 +152,41 @@ h2 {
     border: 1px;
     border-style: solid;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
     background-image: url("images/profilepic8.jpg");
     background-size: cover;
+    height: 400px;
+    width: 100%;
+    grid-area: "h";
 }
 
 .enlarge:hover {
     transform: scale(1.05);
     cursor: pointer;
+
 }
 
 .collapsible {
     padding-left: 10px;
     color: white;
     font-size: 1.5rem;
+    margin: 2px;
+
 }
 
 .content {
-    padding: 0 18px;
+    padding-left: 10px;
     display: none;
     overflow: hidden;
     color: white;
+    margin: 2px;
+    width: 100%;
+  }
+
+  .container {
+    background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
+    width: 100%;
   }
   
