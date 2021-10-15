@@ -1,9 +1,29 @@
-h1 {
+header {
     width:100%;
     background-color: darkorange;
     margin: 0px;
     padding: 15px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+h1 {
     text-align: center;
+    padding-left: 780px;
+   
+}
+
+a{
+    text-align: left;
+    width: 100%;
+    font-size: 1.5em;
+    color: black;
+    text-decoration:none;
+}
+
+a:hover{
+    color: white;
 }
 
 body{
@@ -67,9 +87,7 @@ h2{
     height: 70vh;
     width:100%;
     gap: 2rem;
-    /* border-width: 2px;
-    border-style: solid;
-    border-color: black; */
+
 }
 
 .message-recieved{
