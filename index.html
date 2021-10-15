@@ -7,9 +7,20 @@
     <body>
         <section class="navbar">
             <h1>sprkl</h1> 
-            <img id="profile-icon" src="images/profile-icon-png-910.png" width = "40px" height = "40px">
-            <img id = "messages-icon" src="images/message-icon.png" width= "40px" height = "50px">
-
+            <!-- <img id="profile-icon" src="images/profile-icon-png-910.png" width = "40px" height = "40px">
+            <img id = "messages-icon" src="images/message-icon.png" width= "40px" height = "50px"> -->
+            <div id="sideBar" class="my-sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul id="side">
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+                    
+            </div>
+            <div id="main">
+                <button id= "open" onclick="openNav()" class="openbtn" data-name="openNav">&#9776;</button>
+               
+            </div>
         </section>
 
         <section class="explore-grid">
@@ -18,7 +29,7 @@
                 <h3 class="collapsible"> Cassidy </h3>
                 <div class="content">
                     <p><strong>Age:</strong> 18 <br>
-                    <strong>Likes: </strong> Coffee</p>
+                    <strong>Likes: </strong> Black air forces</p>
                 </div>
                 </div>
             </div>
@@ -52,9 +63,9 @@
 
             <div id = "profile-5" class = "enlarge">
                 <div class="container">
-                <h3 class="collapsible"> Malia </h3>
+                <h3 class="collapsible"> Dylan </h3>
                 <div class="content">
-                    <p>mehp</p>
+                    <p>Showers twice a day</p>
                 </div>
             </div>
             </div>
@@ -79,7 +90,7 @@
 
             <div id = "profile-8" class = "enlarge">
                 <div class="container">
-                <h3 class="collapsible"> Christian </h3>
+                <h3 class="collapsible"> Elias </h3>
                 <div class="content">
                     <p>Certified Lover boy</p>
                 </div>
@@ -87,6 +98,22 @@
             </div>
 
         </section>
+        <script>
+            function openNav() {
+                const currentElement = document.getElementById("sideBar");
+                console.log(currentElement);
+                currentElement.style.width = "25%";
+                // document.getElementById("main").style.marginLeft = "250px";
+
+            }
+    
+            function closeNav() {
+                const currentElement = document.getElementById("sideBar");
+                currentElement.style.width = "0";
+                // document.getElementById("main").style.marginLeft = "0";
+
+            }
+        </script>
         <script src='script.js' type="module"></script>
     </body>
 </html>

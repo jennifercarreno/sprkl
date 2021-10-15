@@ -2,7 +2,7 @@ let coll = document.getElementsByClassName("collapsible");
 let i;
 
 for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
+  coll[i].addEventListener("mousemove", function() {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
     console.log(content);
@@ -13,3 +13,4 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
