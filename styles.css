@@ -27,7 +27,7 @@ h1{
 }
 .navbar{
     margin:0px;
-    background-color:mediumpurple;
+    background-color:darkorange;
     padding: 10px;
     
 }
@@ -245,9 +245,9 @@ h1{
   }
 
 .openbtn {
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
-    background-color: #111;
+    background-color:darkorange;
     color: white;
     /* padding: 10px 15px; */
     border: none;
@@ -255,16 +255,16 @@ h1{
     flex-direction: row;
     float: right;
     justify-content: center;
-    padding: 10px;
+    /* padding: 10px; */
   }
   
 .openbtn:hover {
-    background-color: #444;
+    color: #444;
   }
 
 #main {
     transition: margin-left .5s; 
-    padding: 20px;
+    padding: 10px;
   }
 
 @media screen and (max-height: 450px) {
@@ -278,5 +278,5 @@ h1{
   }
 
 a:hover {
-    color: mediumpurple;
+    color: darkorange;
 }
