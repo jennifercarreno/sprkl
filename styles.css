@@ -7,6 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 .navbar img {
     display: flex;
@@ -182,9 +183,6 @@ body {
     font-size: 1.5rem;
     margin: 2px;
 
-}
-.collapsible:hover{
-    color:red;
 }
 
 .content {
