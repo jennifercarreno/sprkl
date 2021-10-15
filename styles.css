@@ -10,6 +10,7 @@ body {
 h1{
     font-size: 2em;
     margin: 10px;
+    color: white;
 }
 
 .navbar img {
@@ -26,7 +27,7 @@ h1{
 }
 .navbar{
     margin:0px;
-    background-color:darkorange;
+    background-color:mediumpurple;
     padding: 10px;
     
 }
@@ -277,5 +278,5 @@ h1{
   }
 
 a:hover {
-    color: darkorange;
+    color: mediumpurple;
 }

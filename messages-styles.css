@@ -1,6 +1,6 @@
 header {
     width:100%;
-    background-color: darkorange;
+    background-color: mediumpurple;
     margin: 0px;
     padding: 15px;
     display: flex;
@@ -11,19 +11,19 @@ header {
 h1 {
     text-align: center;
     padding-left: 780px;
-   
+    color: white;
 }
 
 a{
     text-align: left;
     width: 100%;
     font-size: 1.5em;
-    color: black;
+    color: white;
     text-decoration:none;
 }
 
 a:hover{
-    color: white;
+    color: black;
 }
 
 body{
@@ -140,5 +140,5 @@ h2{
 
 #welcome-messages{
     text-align: center;
-    
+
 }
