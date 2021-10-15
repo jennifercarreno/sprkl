@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="messages-styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +10,33 @@
 <body>
     <h1>Messages</h1>
     <h2>Requests: 0</h2>
-    <section id="chat1">
+
+    <div id="display">
+    <div class="chats">
+    <section id="chat-1" class="chat">
         <h3>Brad</h3>
         <p>Hey</p>
     </section>
 
-    <section id="chat2">
+    <section id="chat2" class="chat">
         <h3>Chad</h3>
         <p>Hey</p>
     </section>
 
-    <section id="chat3">
+    <section id="chat3" class="chat">
         <h3>Jose</h3>
         <p>Hey</p>
     </section>
+    </div>
+
+    <div class="single-chat">
+        <section id="chat-display">
+            <h3 id="username">username</h3>
+            <p class="message-recieved">hey</p>
+            <p class="message-sent">hi</p>
+        </section>
+    </div>
+</div>
+
 </body>
 </html>
