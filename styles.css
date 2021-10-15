@@ -6,6 +6,12 @@ body {
     margin: 0px;
 
 }
+
+h1{
+    font-size: 2em;
+    margin: 10px;
+}
+
 .navbar img {
     display: flex;
     flex-direction: row;

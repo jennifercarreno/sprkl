@@ -77,9 +77,10 @@ h2{
     width: 40%;
     height: 86.5%;
     padding-left: 10px;
+    position: relative;
 }
 
-#display{
+#display:not(#new-message){
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -87,6 +88,7 @@ h2{
     height: 70vh;
     width:100%;
     gap: 2rem;
+    
 
 }
 
@@ -99,6 +101,7 @@ h2{
     border-radius: 10px;
     width:fit-content;
     margin: 10px;
+    display: none;
 }
 
 .message-sent{
@@ -107,7 +110,8 @@ h2{
     border-radius: 10px;
     float: right;
     width: fit-content;
-    margin: 10px;;
+    margin: 10px;
+    display: none;
 }
 
 #chat-display {
@@ -121,4 +125,20 @@ h2{
     border-right: 0px;
     border-color: silver;
     border-style: solid;
+    display: none;
+}
+
+#new-message {
+   position: absolute;
+   bottom: 20px;
+   width: 90%;
+   padding: 10px;
+   margin:2px;
+   display: none;
+   
+}
+
+#welcome-messages{
+    text-align: center;
+    
 }
